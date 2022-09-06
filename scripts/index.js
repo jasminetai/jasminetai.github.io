@@ -15,9 +15,7 @@ const debounce = (func) => {
     };
 };
 
-const storeScroll = () => {
-    document.documentElement.dataset.scroll = window.scrollY;
-};
+const storeScroll = () => document.documentElement.dataset.scroll = window.scrollY;
 
 document.addEventListener('scroll', debounce(storeScroll));
 
@@ -34,9 +32,7 @@ const typewriter = (el, phrase) => {
                     clearInterval(typeLetter);
                     el.textContent = phrase;
                     el.classList.add('section__typed-text--idle');
-                    setTimeout(() => {
-                        resolve();
-                    }, 1500);
+                    setTimeout(() => resolve(), 1500);
                 } else {
                     el.textContent = phrase.slice(0, counter) + '|';
                     counter++;
@@ -46,15 +42,13 @@ const typewriter = (el, phrase) => {
     }).catch(e => reject(e));
 };
 
-typewriter(document.getElementsByClassName('section__typed-text')[0], `Hi, I'm Jasmine Tai.`)
+typewriter(document.getElementsByClassName('section__typed-text')[0], `hi, I'm Jasmine Tai`)
     .then(result => {
         document.getElementsByClassName('section__typed-text')[0].classList.remove('section__typed-text--idle');
-        return typewriter(document.getElementsByClassName('section__typed-text')[1], 'I am a pretty line of text.');
+        return typewriter(document.getElementsByClassName('section__typed-text')[1], 'programmer, student, constant learner');
     })
     .then(result => {
         document.getElementsByClassName('section__typed-text')[1].classList.remove('section__typed-text--idle');
-        return typewriter(document.getElementsByClassName('section__typed-text')[2], 'So am I! :)');
+        return typewriter(document.getElementsByClassName('section__typed-text')[2], 'welcome to my site! :)');
     })
-    .catch(e => {
-        console.log('Something went wrong: ' + e);
-    });
+    .catch(e => console.error('Oh, no:', e));

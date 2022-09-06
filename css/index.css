@@ -112,6 +112,10 @@ body {
     background-size: cover;
 }
 
+.section__typed-text::selection {
+    text-shadow: none;
+}
+
 .section__typed-text--idle::after {
     content: "|";
     -webkit-animation: blinking-cursor 1s step-end infinite;
