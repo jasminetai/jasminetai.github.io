@@ -66,31 +66,6 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
-    .nav {
-        position: static;
-        opacity: 1;
-    }
-    
-    .nav:hover, html[data-scroll="0"] .nav {
-        opacity: 1;
-        transition: none;
-    }
-    
-    .nav__item {
-        display: none;
-    }
-
-    .nav__item:hover {
-        background-color: inherit;
-        transition: none;
-    }
-    
-    .nav__item--name {
-        display: inline-block;
-    }
-}
-
 .section {
     height: 100%;
     padding: 2rem;
@@ -98,7 +73,7 @@ body {
 
 .section--intro {
     height: 100vh;
-    background-image: url("../img/background1.png");
+    background-image: url("../assets/background1.png");
     background-size: cover;
     text-shadow: 0.1rem 0.1rem 0 #000, -0.1rem 0.1rem 0 #000, 0.1rem -0.1rem 0 #000, -0.1rem -0.1rem 0 #000;
 }
@@ -107,8 +82,8 @@ body {
     background-color: #555;
 }
 
-.section__portfolio {
-    background-image: url("../img/background2.png");
+.section__projects {
+    background-image: url("../assets/background2.png");
     background-size: cover;
 }
 
@@ -134,7 +109,7 @@ body {
 
 .section__card-wrapper {
     margin: 2rem 0;
-    height: 12rem;
+    min-height: 12rem;
 }
 
 .section__card {
@@ -144,7 +119,11 @@ body {
     transform-style: preserve-3d;
 }
 
-.section__card-wrapper:hover .section__card {
+.section__card-wrapper {
+    height: 12rem;
+}
+
+.section__card-wrapper:hover .section__card, .section__card-wrapper:active .section__card, .section__card-wrapper:active .section__card {
     transform: rotateX(180deg);
 }
 
@@ -169,14 +148,13 @@ body {
     padding: 1rem 2rem;
 }
 
-.section__link {
+.section__text {
     color: #fff;
+    text-shadow: 0.1rem 0.1rem 0 #000, -0.1rem 0.1rem 0 #000, 0.1rem -0.1rem 0 #000, -0.1rem -0.1rem 0 #000;
 }
 
-@media (max-width: 600px) {
-    .section__card-wrapper {
-        height: 16rem;
-    }
+.section__text::selection {
+    text-shadow: none;
 }
 
 .contact {
@@ -184,9 +162,55 @@ body {
     text-decoration: none;
 }
 
+.contact__row {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
 .contact__icon {
     -webkit-filter: invert(100%);
     filter: invert(100%);
-    margin: 0.4rem;
+    margin: 0 0.5rem;
     height: 2.5rem;
+}
+
+.contact__resume {
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section__card-wrapper {
+        height: 16rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        position: static;
+        opacity: 1;
+    }
+    
+    .nav:hover, html[data-scroll="0"] .nav {
+        opacity: 1;
+        transition: none;
+    }
+    
+    .nav__item {
+        display: none;
+    }
+
+    .nav__item:hover {
+        background-color: inherit;
+        transition: none;
+    }
+    
+    .nav__item--name {
+        display: inline-block;
+    }
+    
+    .section__card-wrapper {
+        height: 20rem;
+    }
 }

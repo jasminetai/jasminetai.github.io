@@ -42,13 +42,13 @@ const typewriter = (el, phrase) => {
     }).catch(e => reject(e));
 };
 
-typewriter(document.getElementsByClassName('section__typed-text')[0], `hi, I'm Jasmine Tai`)
+typewriter(document.getElementsByClassName('section__typed-text')[0], `hi, I'm Jasmine Tai!`)
     .then(result => {
         document.getElementsByClassName('section__typed-text')[0].classList.remove('section__typed-text--idle');
-        return typewriter(document.getElementsByClassName('section__typed-text')[1], 'programmer, student, constant learner');
+        return typewriter(document.getElementsByClassName('section__typed-text')[1], 'student, programmer, continual learner');
     })
     .then(result => {
         document.getElementsByClassName('section__typed-text')[1].classList.remove('section__typed-text--idle');
-        return typewriter(document.getElementsByClassName('section__typed-text')[2], 'welcome to my site! :)');
+        return typewriter(document.getElementsByClassName('section__typed-text')[2], 'welcome to my site :)');
     })
     .catch(e => console.error('Oh, no:', e));
