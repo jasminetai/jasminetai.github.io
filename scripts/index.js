@@ -19,6 +19,17 @@ const storeScroll = () => document.documentElement.dataset.scroll = window.scrol
 
 document.addEventListener('scroll', debounce(storeScroll));
 
+document.querySelectorAll('.section__card-wrapper').forEach(element => element.addEventListener('click', () => {
+    element.classList.contains('section__card-wrapper--flipped')
+        ? element.classList.remove('section__card-wrapper--flipped')
+        : element.classList.add('section__card-wrapper--flipped');
+    document.querySelectorAll('.section__card-wrapper--flipped').forEach(el => {
+        if (el != element) {
+            el.classList.remove('section__card-wrapper--flipped');
+        }
+    });
+}));
+
 storeScroll();
 
 const typewriter = (el, phrase) => {

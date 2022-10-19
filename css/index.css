@@ -124,7 +124,7 @@ body {
     height: 12rem;
 }
 
-.section__card-wrapper:hover .section__card, .section__card-wrapper:active .section__card, .section__card-wrapper:active .section__card {
+.section__card-wrapper--flipped .section__card {
     transform: rotateX(180deg);
 }
 
@@ -191,10 +191,14 @@ body {
     body {
         font: 0.9rem/1.35 consolas, monospace;
     }
-    
+
     .nav {
         position: static;
         opacity: 1;
+    }
+    
+    .nav__menu {
+        height: 2.35rem;
     }
     
     .nav:hover, html[data-scroll="0"] .nav {
