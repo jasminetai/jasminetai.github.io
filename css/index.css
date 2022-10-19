@@ -82,7 +82,7 @@ body {
     background-color: #555;
 }
 
-.section__projects {
+.section__experience {
     background-image: url("../assets/background2.png");
     background-size: cover;
 }
@@ -110,6 +110,7 @@ body {
 .section__card-wrapper {
     margin: 2rem 0;
     min-height: 12rem;
+    cursor: pointer;
 }
 
 .section__card {
@@ -182,11 +183,15 @@ body {
 
 @media only screen and (max-width: 1200px) {
     .section__card-wrapper {
-        height: 16rem;
+        height: 18rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        font: 0.9rem/1.35 consolas, monospace;
+    }
+    
     .nav {
         position: static;
         opacity: 1;
@@ -211,6 +216,10 @@ body {
     }
     
     .section__card-wrapper {
-        height: 20rem;
+        height: 24rem;
+    }
+
+    .section__card-text {
+        padding: 0.8rem 1.6rem;
     }
 }
