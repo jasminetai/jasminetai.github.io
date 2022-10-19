@@ -6,12 +6,8 @@ window.onload = () => {
 const debounce = (func) => {
     let frame;
     return (...args) => {
-        if (frame) {
-            cancelAnimationFrame(frame);
-        }
-        frame = requestAnimationFrame(() => {
-            func(...args);
-        });
+        if (frame) cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(() => func(...args));
     };
 };
 
@@ -56,7 +52,7 @@ const typewriter = (el, phrase) => {
 typewriter(document.getElementsByClassName('section__typed-text')[0], `hi, I'm Jasmine Tai!`)
     .then(result => {
         document.getElementsByClassName('section__typed-text')[0].classList.remove('section__typed-text--idle');
-        return typewriter(document.getElementsByClassName('section__typed-text')[1], 'student, programmer, continual learner');
+        return typewriter(document.getElementsByClassName('section__typed-text')[1], 'student, developer, continual learner');
     })
     .then(result => {
         document.getElementsByClassName('section__typed-text')[1].classList.remove('section__typed-text--idle');
