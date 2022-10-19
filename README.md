@@ -1,2 +1,2 @@
 # jasminetai.github.io
- a start for a personal website
+ My personal website -- check it out!
