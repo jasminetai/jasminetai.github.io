@@ -107,6 +107,24 @@ body {
     50% {color: transparent;}
 }
 
+.overview-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.overview-text {
+}
+
+.overview-img {
+    object-fit: cover;
+    width: 16em;
+    height: auto;
+    padding: 1.5em 0;
+}
+
 .section__card-wrapper {
     margin: 2rem 0;
     min-height: 12rem;
@@ -184,6 +202,22 @@ body {
 @media only screen and (max-width: 1200px) {
     .section__card-wrapper {
         height: 18rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .overview-body {
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .overview-text {
+        width: 100%;
+    }
+    
+    .overview-img {
+        width: 18em;
+        padding: 0;
     }
 }
 
