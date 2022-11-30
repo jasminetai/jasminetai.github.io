@@ -115,9 +115,6 @@ body {
     gap: 2em;
 }
 
-.overview-text {
-}
-
 .overview-img {
     object-fit: cover;
     width: 16em;
