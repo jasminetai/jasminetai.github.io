@@ -1,3 +1,5 @@
+// Add scroll rubberbanding effect when using the navbar
+
 window.onload = () => {
     window.scroll(0, 0);
     document.body.classList.remove('no-transition');
@@ -28,6 +30,8 @@ document.querySelectorAll('.section__card-wrapper').forEach(element => element.a
 
 storeScroll();
 
+// Add a typing effect to the "home" screen!
+
 const typewriter = (el, phrase) => {
     el.classList.add('section__typed-text--idle');
     return new Promise((resolve, reject) => {
@@ -56,6 +60,6 @@ typewriter(document.getElementsByClassName('section__typed-text')[0], `hi, I'm J
     })
     .then(result => {
         document.getElementsByClassName('section__typed-text')[1].classList.remove('section__typed-text--idle');
-        return typewriter(document.getElementsByClassName('section__typed-text')[2], 'welcome to my site :)');
+        return typewriter(document.getElementsByClassName('section__typed-text')[2], 'glad to have you here :)');
     })
     .catch(e => console.error('Oh, no:', e));
