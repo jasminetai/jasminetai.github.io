@@ -13,6 +13,10 @@ export default {
           "0%, 100%": { color: "white" },
           "50%": { color: "transparent" },
         },
+        fade: {
+          "0%": { opacity: "0.6" },
+          "100%": { opacity: "1" },
+        }
       },
     },
   },

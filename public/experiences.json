@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Undergraduate Research Assistant",
+        "date": "Dec 2021 - Dec 2024",
+        "company": "Computational Ecology Lab at UC Santa Cruz",
+        "description": "I contributed to research projects investigating efficient connectivity computations for various bird species using Python and R."
+    },
+    {
+        "name": "Lead Web Developer",
+        "date": "Sep 2023 - Dec 2024",
+        "company": "Tech4Good Lab at UC Santa Cruz",
+        "description": "I led teams in web development."
+    },
+    {
+        "name": "Software Engineering Intern",
+        "date": "June 2023 - Aug 2023, June 2024 - Aug 2024",
+        "company": "NASA Jet Propulsion Laboratory (JPL)",
+        "description": "I did two internships at JPL."
+    },
+    {
+        "name": "Google Summer of Code Mentor",
+        "date": "Sep 2023 - Dec 2024",
+        "company": "UC Santa Cruz - Open Source Program Office (UCSC OSPO)",
+        "description": "I mentored two Google Summer of Code participants."
+    },
+    {
+        "name": "Pintos Projects",
+        "date": "Apr 2024 - June 2024",
+        "description": "I collaborated with a partner on the Pintos projects in C."
+    },
+    {
+        "name": "Kakaw!",
+        "date": "Apr 2023 - June 2023",
+        "description": "I worked in a team of six to produce Kakaw!, an application that facilitates learning and review via live quiz sessions.",
+        "link": "https://kakaw.190n.dev"
+    },
+    {
+        "name": "Multi-Threaded HTTP Server",
+        "date": "Sep 2023 - Dec 2024",
+        "description": "I developed a robust HTTP server in C."
+    }
+]
