@@ -14,8 +14,8 @@ export default {
           "50%": { color: "transparent" },
         },
         fade: {
-          "0%": { opacity: "0.6" },
-          "100%": { opacity: "1" },
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0.7" },
         }
       },
     },

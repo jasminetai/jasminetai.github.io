@@ -3,40 +3,37 @@
         "name": "Undergraduate Research Assistant",
         "date": "Dec 2021 - Dec 2024",
         "company": "Computational Ecology Lab at UC Santa Cruz",
-        "description": "I contributed to research projects investigating efficient connectivity computations for various bird species using Python and R."
+        "description": "I contributed to research projects investigating efficient connectivity computation for various bird species using Python/PyTorch and R. Given input layers describing the habitat and terrain of a region for a bird species, our current connectivity computation algorithm runs over 1,000x faster than similar existing algorithms while still providing accurate results. My main work was in producing various methods for generating the said input layers using trusted data sources and processing large amounts of geospatial data in Python. Overall, our work aims to help ecologists understand the effects of habitat fragmentation on bird populations and how such effects can be best mitigated through habitat restoration."
     },
     {
         "name": "Lead Web Developer",
         "date": "Sep 2023 - Dec 2024",
         "company": "Tech4Good Lab at UC Santa Cruz",
-        "description": "I led teams in web development."
+        "description": "Over several academic quarters, I led 50+ students in learning web development through practical experience in building web applications for research initiatives in social computing. This entailed guiding students through concepts such as HTML, SCSS, TypeScript, Angular, NgRx, RxJS, and Firebase, handling task delegation, providing detailed feedback in code reviews, and defining the long-term development objectives of various projects.",
+        "link": "https://tech4good.soe.ucsc.edu/"
     },
     {
         "name": "Software Engineering Intern",
         "date": "June 2023 - Aug 2023, June 2024 - Aug 2024",
         "company": "NASA Jet Propulsion Laboratory (JPL)",
-        "description": "I did two internships at JPL."
+        "description": "I participated in two internships at JPL, in which I worked with the Deep Space Network Emulator (DSNE) team to produce automation software for creating DSNE configuration files and DSNE test scripts. In doing so, I gained experience in working with large code systems written in Perl, Tcl, and C, as well as in web application development using HTML, CSS, Bootstrap, jQuery, and Python."
     },
     {
         "name": "Google Summer of Code Mentor",
         "date": "Sep 2023 - Dec 2024",
         "company": "UC Santa Cruz - Open Source Program Office (UCSC OSPO)",
-        "description": "I mentored two Google Summer of Code participants."
+        "description": "I mentored two Google Summer of Code participants in building Causeway, a web application that teaches learners web development using a microrole-based hierarchy, and Compass Goals, an associated exemplar application used in Causeway. I performed regular check-ins with the participants every week to discuss the projects, which involved technologies such as Typescript, Angular, and Firebase, and reviewed 30+ pull requests addressing new features and bugs in detail.",
+        "link": "https://summerofcode.withgoogle.com/archive/2024/projects/wTxAXxEz"
     },
     {
         "name": "Pintos Projects",
         "date": "Apr 2024 - June 2024",
-        "description": "I collaborated with a partner on the Pintos projects in C."
+        "description": "I collaborated with a partner on Stanford's Pintos projects in C. These projects developed a thorough understanding of operating system concepts through the implementation of support for user programs, virtual memory, and file systems in an existing operating system. In the process, I also managed to greatly strengthen my skills in C programming and debugging."
     },
     {
         "name": "Kakaw!",
         "date": "Apr 2023 - June 2023",
-        "description": "I worked in a team of six to produce Kakaw!, an application that facilitates learning and review via live quiz sessions.",
+        "description": "Over eight weeks, I worked in a team of six to produce Kakaw!, an application that facilitates learning and review via live quiz sessions. This application involved a tech stack of TypeScript, React, Tailwind CSS, Next.js, and Express.js; I primarily worked on building pages in the frontend and integrating them with the server backend. Our team practiced Agile methodologies throughout development, including regular standup meetings, sprint planning, and sprint reviews.",
         "link": "https://kakaw.190n.dev"
-    },
-    {
-        "name": "Multi-Threaded HTTP Server",
-        "date": "Sep 2023 - Dec 2024",
-        "description": "I developed a robust HTTP server in C."
     }
 ]

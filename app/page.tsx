@@ -12,7 +12,7 @@ export default function Home() {
       <main className="w-full min-h-screen">
         <Intro />
         <About />
-        <Experience experiences={parseJsonFile('public/experiences.json')} resume="" />
+        <Experience experiences={parseJsonFile('public/experiences.json')} />
         <Contact />
       </main>
     </>
