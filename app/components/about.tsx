@@ -26,7 +26,7 @@ export default function About() {
           </div>
       
           {/* Image */}
-          <Image src="/self.jpg" alt="Pic of me at one of the Huntington's botanical gardens" width={300} height={300} className="relative mx-auto mt-6 sm:mt-0 sm:ml-10" />
+          <Image src="/self.jpg" alt="Pic of me at one of the Huntington's botanical gardens" width={300} height={300} className="relative mx-auto mt-6 sm:mt-0 sm:ml-10" unoptimized />
 
         </div>
 
