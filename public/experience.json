@@ -3,13 +3,13 @@
         "name": "Undergraduate Research Assistant",
         "date": "Dec 2021 - Dec 2024",
         "company": "Computational Ecology Lab at UC Santa Cruz",
-        "description": "I contributed to research projects investigating efficient connectivity computation for various bird species using Python/PyTorch and R. Given input layers describing the habitat and terrain of a region for a bird species, our current connectivity computation algorithm runs over 1,000x faster than similar existing algorithms while still providing accurate results. My main work was in producing various methods for generating the said input layers using trusted data sources and processing large amounts of geospatial data in Python. Overall, our work aims to help ecologists understand the effects of habitat fragmentation on bird populations and how such effects can be best mitigated through habitat restoration."
+        "description": "I contributed to research in efficient connectivity computation for bird species in Python/PyTorch and R. I worked on methods for processing large amounts of geospatial data efficiently and automated input layer generation for our connectivity computation algorithm, which currently runs over 1,000x faster than similar algorithms. Such an algorithm helps ecologists model the effects of habitat fragmentation on bird populations and understand how to best mitigate those effects through habitat restoration."
     },
     {
         "name": "Lead Web Developer",
         "date": "Sep 2023 - Dec 2024",
         "company": "Tech4Good Lab at UC Santa Cruz",
-        "description": "Over several academic quarters, I led 50+ students in learning web development through practical experience in building web applications for research initiatives in social computing. This entailed guiding students through concepts such as HTML, SCSS, TypeScript, Angular, NgRx, RxJS, and Firebase, handling task delegation, providing detailed feedback in code reviews, and defining the long-term development objectives of various projects.",
+        "description": "Over several academic quarters, I led 50+ students in learning web development by collaboratively building web applications for research initiatives in social computing. This entailed guiding students through concepts such as HTML, SCSS, TypeScript, Angular, NgRx, RxJS, and Firebase, handling task delegation, providing detailed feedback in code reviews, and defining long-term development objectives of ongoing projects.",
         "link": "https://tech4good.soe.ucsc.edu/"
     },
     {
@@ -21,14 +21,14 @@
     {
         "name": "Google Summer of Code Mentor",
         "date": "Sep 2023 - Dec 2024",
-        "company": "UC Santa Cruz - Open Source Program Office (UCSC OSPO)",
+        "company": "UC Santa Cruz Open Source Program Office (UCSC OSPO)",
         "description": "I mentored two Google Summer of Code participants in building Causeway, a web application that teaches learners web development using a microrole-based hierarchy, and Compass Goals, an associated exemplar application used in Causeway. I performed regular check-ins with the participants every week to discuss the projects, which involved technologies such as Typescript, Angular, and Firebase, and reviewed 30+ pull requests addressing new features and bugs in detail.",
         "link": "https://summerofcode.withgoogle.com/archive/2024/projects/wTxAXxEz"
     },
     {
         "name": "Pintos Projects",
         "date": "Apr 2024 - June 2024",
-        "description": "I collaborated with a partner on Stanford's Pintos projects in C. These projects developed a thorough understanding of operating system concepts through the implementation of support for user programs, virtual memory, and file systems in an existing operating system. In the process, I also managed to greatly strengthen my skills in C programming and debugging."
+        "description": "I collaborated with a partner on Stanford's Pintos projects in C. These projects developed a thorough understanding of operating system concepts through the implementation of support for user programs, virtual memory, and file systems in an existing operating system. In the process, I also strengthened my skills in C programming and debugging."
     },
     {
         "name": "Kakaw!",

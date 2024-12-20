@@ -15,7 +15,7 @@ export default {
         },
         fade: {
           "0%": { opacity: "1" },
-          "100%": { opacity: "0.7" },
+          "100%": { opacity: "0.65" },
         }
       },
     },
