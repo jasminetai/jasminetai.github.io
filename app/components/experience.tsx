@@ -3,7 +3,7 @@ import Header from "./header";
 
 export default function Experience(props: { expJson: Record<string, string>[] }) {
   const expJsx = props.expJson.map((exp) =>
-    <div key={exp.name} className="flex flex-col py-3 my-4 bg-gradient-to-r from-[#91919a]/75 to-transparent px-6 sm:px-16 mr-6 sm:mr-16">
+    <div key={exp.name} className="flex flex-col py-3 my-4 bg-gradient-to-r from-[#91919a]/75 px-6 sm:px-16 mr-6 sm:mr-16">
       {
         exp.link
         ? <a href={exp.link} className="w-fit text-xl sm:text-2xl font-bold underline hover:text-[#ddd]">{ exp.name }</a>
@@ -27,7 +27,7 @@ export default function Experience(props: { expJson: Record<string, string>[] })
         { expJsx }
         
         {/* Resume */}
-        <p className="text-right font-bold italic bg-gradient-to-l from-zinc-500/75 to-transparent py-2 mt-4 ml-6 sm:ml-16 px-6 sm:px-16">
+        <p className="text-right font-bold italic bg-gradient-to-l from-zinc-500/75 py-2 mt-4 ml-6 sm:ml-16 px-6 sm:px-16">
           Psst, there&apos;s plenty more to see in my <Link href="/resume.pdf" target="_blank" className="underline hover:text-[#ddd]">resume</Link>!
         </p>
 
