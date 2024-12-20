@@ -27,7 +27,7 @@ export default function Experience(props: { expJson: Record<string, string>[] })
         { expJsx }
         
         {/* Resume */}
-        <p className="text-right font-bold italic bg-gradient-to-l from-zinc-500/75 to-transparent py-2 mt-2 ml-6 sm:ml-16 px-6 sm:px-16">
+        <p className="text-right font-bold italic bg-gradient-to-l from-zinc-500/75 to-transparent py-2 mt-4 ml-6 sm:ml-16 px-6 sm:px-16">
           Psst, there&apos;s plenty more to see in my <Link href="/resume.pdf" target="_blank" className="underline hover:text-[#ddd]">resume</Link>!
         </p>
 
