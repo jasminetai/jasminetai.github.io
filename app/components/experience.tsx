@@ -6,10 +6,10 @@ export default function Experience(props: { expJson: Record<string, string>[] })
     <div key={exp.name} className="flex flex-col py-3 my-4 bg-gradient-to-r from-[#91919a]/75 to-transparent px-6 sm:px-16 mr-6 sm:mr-16">
       {
         exp.link
-        ? <a href={exp.link} className="w-fit text-2xl font-bold underline hover:text-[#ddd]">{ exp.name }</a>
-        : <h2 className="text-2xl font-bold">{ exp.name }</h2>
+        ? <a href={exp.link} className="w-fit text-xl sm:text-2xl font-bold underline hover:text-[#ddd]">{ exp.name }</a>
+        : <h2 className="text-xl sm:text-2xl font-bold">{ exp.name }</h2>
       }
-      <h3 className="pt-1 text-xl font-bold">{ exp.company || 'Project' } | { exp.date }</h3>
+      <h3 className="pt-1 text-lg sm:text-xl font-bold">{ exp.company || 'Project' } | { exp.date }</h3>
       <p className="py-2 text-neutral-100">{ exp.description }</p>
     </div>
   );

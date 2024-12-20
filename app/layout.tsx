@@ -13,7 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-mono bg-black text-white overflow-x-hidden antialiased">
+      {/* BG chosen here due to a mobile Safari bug where intro BG doesn't touch with about BG. */}
+      <body className="font-mono bg-zinc-700 text-white overflow-x-hidden antialiased">
         {children}
       </body>
     </html>
