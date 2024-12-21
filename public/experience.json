@@ -20,7 +20,7 @@
     },
     {
         "name": "Google Summer of Code Mentor",
-        "date": "Sep 2023 - Dec 2024",
+        "date": "Apr 2024 - Sep 2024",
         "company": "UC Santa Cruz Open Source Program Office (UCSC OSPO)",
         "description": "I mentored two Google Summer of Code participants in building Causeway, a web application that teaches learners web development using a microrole-based structure, and Compass Goals, a small exemplar application used in Causeway. The tech stack included TypeScript, Angular, and Firebase. I performed regular check-ins with the participants every week to discuss progress and reviewed 30+ pull requests in detail.",
         "link": "https://summerofcode.withgoogle.com/archive/2024/projects/wTxAXxEz"
