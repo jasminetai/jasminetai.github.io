@@ -4,7 +4,7 @@ import Header from "./header";
 
 export default function Contact() {
   return (
-    <div className="w-full flex flex-col justify-center pt-12 pb-6 bg-gradient-to-b from-black to-zinc-500/75" id="contact">
+    <div className="w-full flex flex-col justify-center pt-6 sm:pt-10 pb-6 bg-gradient-to-b from-black to-zinc-500/75" id="contact">
       <div className="h-min flex flex-col mx-6 sm:mx-16">
 
         {/* Header */}

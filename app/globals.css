@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Prevent overscrolling. */
-html,
-body {
-  height: 100%;
-  overscroll-behavior-y: none;
-}
-
 body {
   color: white;
   background: black;

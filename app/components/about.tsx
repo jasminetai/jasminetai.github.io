@@ -3,7 +3,7 @@ import Header from './header';
 
 export default function About() {
   return (
-    <div className="w-full flex flex-col justify-center bg-zinc-700 pt-12 pb-4" id="about">
+    <div className="w-full flex flex-col justify-center bg-zinc-700 pt-6 sm:pt-10 pb-4" id="about">
 
       <div className="flex flex-col justify-center mx-6 sm:mx-16">
         
@@ -26,7 +26,7 @@ export default function About() {
           </div>
       
           {/* Image */}
-          <Image src="/self.jpg" alt="Pic of me at one of the Huntington's botanical gardens" width={300} height={300} className="relative mx-auto mt-6 sm:mt-0 sm:ml-10" unoptimized />
+          <Image src="/self.jpg" alt="Pic of me at one of the Huntington's botanical gardens" width={300} height={300} className="relative mx-auto mt-6 mb-2 sm:my-0 sm:ml-10" />
 
         </div>
 

@@ -15,7 +15,7 @@ export default function Experience(props: { expJson: Record<string, string>[] })
   );
 
   return (
-    <div className="w-full flex flex-col justify-center bg-gradient-to-b from-zinc-700 to-black to-60% pt-12 pb-4" id="experience">
+    <div className="w-full flex flex-col justify-center bg-gradient-to-b from-zinc-700 to-black to-60% pt-6 sm:pt-10 pb-4" id="experience">
       <div className="flex flex-col">
 
         {/* Header */}
