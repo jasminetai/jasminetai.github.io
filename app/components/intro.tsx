@@ -19,10 +19,10 @@ export default function Intro() {
       <div className="flex flex-row mx-6 sm:mx-16 pt-4">
         <div className="text-2xl font-extrabold sm:text-4xl">&gt;</div>
         <div className="flex flex-col gap-2 ml-4">
-          <h1 className="text-2xl font-extrabold sm:text-4xl">hi, I&apos;m Jasmine!</h1>
-          <h2 className="text-2xl text-red-500 sm:text-4xl">UCSC computer science + applied math grad</h2>
-          <h2 className="text-2xl text-emerald-500 sm:text-4xl">current OMSCS student at Georgia Tech</h2>
-          <h2 className="text-2xl text-blue-500 sm:text-4xl">software dev + computer systems</h2>
+          <h1 className="text-2xl font-extrabold sm:text-4xl drop-shadow-[0_1.4px_1.4px_rgba(0,0,0)]">hi, I&apos;m Jasmine!</h1>
+          <h2 className="text-2xl text-red-500 sm:text-4xl drop-shadow-[0_1.4px_1.4px_rgba(0,0,0)]">UCSC computer science + applied math grad</h2>
+          <h2 className="text-2xl text-emerald-500 sm:text-4xl drop-shadow-[0_1.4px_1.4px_rgba(0,0,0)]">current OMSCS student at Georgia Tech</h2>
+          <h2 className="text-2xl text-blue-500 sm:text-4xl drop-shadow-[0_1.4px_1.4px_rgba(0,0,0)]">software dev + computer systems</h2>
         </div>
       </div>
 
