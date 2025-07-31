@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Jasmine Tai",
-  description: "software development and computer systems",
+  description: "software dev and computing systems",
 };
 
 export default function RootLayout({

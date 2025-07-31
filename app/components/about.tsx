@@ -15,15 +15,15 @@ export default function About() {
           {/* Content */}
           <div className="flex flex-col">
             <p className="py-2">
-              I am a recently graduated computer science and applied math double major from UC Santa Cruz! I learned a ton about software development, computer systems, mathematical modeling, and other stuff there. Combined with my research experience in computational ecology, leadership work at the Tech4Good lab, and two software engineering internships at NASA JPL, I&apos;ve managed to grow quite a bit as a developer, leader, and problem-solver.
+              I am a recent computer science and applied math graduate from UC Santa Cruz! I learned a ton about software development, computer systems, mathematical modeling, and other stuff there, and I got to apply it through internships at NASA JPL and working in a couple research labs.
             </p>
             <p className="py-2">
-              Of course, there&apos;s still much more for me to learn, so I hope to continue my growth through further work experience and part-time grad school at Georgia Tech, where I am exploring computer systems, software development processes, and more technical topics in depth. I&apos;m excited to see where I can go from here!
+              Of course, there&apos;s still much more for me to learn, so I hope to continue my growth through further work experience and part-time grad school at Georgia Tech, where I am exploring topics in computing systems, machine learning, and more!
             </p>
           </div>
       
           {/* Image */}
-          <Image src="/self.jpg" alt="Pic of me at one of the Huntington's botanical gardens" width={260} height={260} className="relative mx-auto mt-6 mb-2 sm:my-0 sm:ml-10" />
+          <Image src="/self.jpg" alt="Pic of me at one of the Huntington's botanical gardens" width={240} height={240} className="relative mx-auto mt-6 mb-2 sm:my-0 sm:ml-10" />
 
         </div>
 

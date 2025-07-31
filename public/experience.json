@@ -9,7 +9,7 @@
         "name": "Lead Web Developer",
         "date": "Sep 2023 - Dec 2024",
         "company": "Tech4Good Lab at UC Santa Cruz",
-        "description": "Over the course of several quarters, I led 50+ students in learning web development by collaboratively building web applications for research initiatives in social computing.",
+        "description": "Over several academic quarters, I led 50+ students in learning web development by collaboratively building web applications for research initiatives in social computing.",
         "link": "https://tech4good.soe.ucsc.edu/"
     },
     {
@@ -22,13 +22,13 @@
         "name": "Google Summer of Code Mentor",
         "date": "Apr 2024 - Sep 2024",
         "company": "UC Santa Cruz Open Source Program Office (UCSC OSPO)",
-        "description": "I mentored two Google Summer of Code participants in building Causeway, a web application that teaches learners web development using a microrole-based structure, and Compass Goals, a small exemplar application used in Causeway.",
-        "link": "https://summerofcode.withgoogle.com/archive/2024/projects/wTxAXxEz"
+        "description": "I mentored two Google Summer of Code participants in building Causeway, a web application that teaches learners web development using a microrole-based structure, and Compass Goals, one of the exemplar application used in Causeway.",
+        "link": "https://causeway.web.app/"
     },
     {
         "name": "Pintos Projects",
         "date": "Apr 2024 - June 2024",
-        "description": "I collaborated with a partner on Stanford's Pintos projects, which build an understanding of operating system concepts through the implementation of support for user programs, virtual memory, and file systems in an existing operating system."
+        "description": "I collaborated with a partner on Stanford's Pintos projects, which involved implementation of support for user programs, virtual memory, and file systems in an existing operating system."
     },
     {
         "name": "Kakaw!",
